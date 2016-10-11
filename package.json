@@ -1,0 +1,19 @@
+{
+  "name": "xverr",
+  "version": "0.0.2",
+  "description": "Error handling for XVnode",
+  "main": "./lib/xverr.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wshager/xverr.git"
+  },
+  "author": "W.S. Hager",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wshager/xverr/issues"
+  },
+  "homepage": "https://github.com/wshager/xverr#readme"
+}
