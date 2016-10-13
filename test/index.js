@@ -1,2 +1,2 @@
 var xerr = require("../lib/xverr");
-xerr.error("err:FOER0000");
+console.log(xerr.error("err:FORG0004") instanceof Error);
