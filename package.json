@@ -1,6 +1,6 @@
 {
   "name": "xverr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Error handling for XVnode",
   "main": "./lib/xverr.js",
   "scripts": {

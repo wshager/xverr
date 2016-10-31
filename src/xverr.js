@@ -6,8 +6,10 @@ export function error(qname,message){
 	if(!message) message = codes[code];
 	var err = new Error(message);
 	// remove self
-	var stack = err.stack.split(/\n/g);
-	stack.splice(1,1);
-	console.error(stack.join("\n"));
-	return err;
+	//var stack = err.stack.split(/\n/g);
+	//stack.splice(1,1);
+	//console.error(stack.join("\n"));
+	//return err;
+	// TODO let implementor catch errors
+	throw err;
 }
